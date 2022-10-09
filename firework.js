@@ -2,7 +2,7 @@ function Firework(x, y) {
     this.hu=random(255)
     this.firework = new Particle(random(width), height,true,this.hu);
     this.exploded = false;
-    this.radii=random(10,26);
+    this.radii=random(10,46);
     this.particles=[];
     
 
