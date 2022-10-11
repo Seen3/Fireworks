@@ -20,7 +20,7 @@ function Firework(x, y) {
             this.firework.applyForce(gravity);
             this.firework.update();
             let s=random(1)>0.5?-1:1;
-			this.firework.vel.x=s*random(2);
+	    this.firework.vel.x=s*random(2);
             if (this.firework.vel.y >= 0) {
                 this.exploded = true;
                 this.explode();
